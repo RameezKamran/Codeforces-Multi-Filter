@@ -132,7 +132,7 @@ chrome.runtime.onMessage.addListener((request) => {
             chrome.storage.local.set({
                 results: filtered
             });
-            console.log("Filtered contests:", filtered);
+
         });
 
     }
