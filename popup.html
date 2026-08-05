@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>CF Multi Filter</h2>
+        <button id="themeToggle">Switch Theme</button>
+    </div>
+
+    <textarea id="handles" placeholder="Enter handles separated by commas"></textarea>
+
+    <br>
+
+
+    <div class="filters">
+
+        <label>
+            <input type="checkbox" id="div1">
+            <span>Div 1</span>
+        </label>
+
+        <label>
+            <input type="checkbox" id="div2">
+            <span>Div 2</span>
+        </label>
+
+        <label>
+            <input type="checkbox" id="div12">
+            <span>Div 1 + Div 2</span>
+        </label>
+
+        <label>
+            <input type="checkbox" id="div3">
+            <span>Div 3</span>
+        </label>
+
+        <label>
+            <input type="checkbox" id="div4">
+            <span>Div 4</span>
+        </label>
+
+        <label>
+            <input type="checkbox" id="edu">
+            <span>Educational</span>
+        </label>
+
+        <label>
+            <input type="checkbox" id="global">
+            <span>Global</span>
+        </label>
+
+    </div>
+
+    <div class="solve-row">
+        <label>Max solved:</label>
+        <select id="limit">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+
+    <br><br>
+
+    <button id="save">
+        Save & Filter
+    </button>
+    <div id="error"></div>
+    <div id="loading">
+        Searching contests...
+    </div>
+    <div id="count"></div>
+    <div id="loading">Searching contests...</div>
+    <div id="error"></div>
+    <div id="count"></div>
+    <div id="results"></div>
+    <div id="results"></div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

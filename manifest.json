@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces Multi Filter",
+  "version": "1.0",
+  "description": "Filter Codeforces contests based on multiple users",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://codeforces.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://codeforces.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
