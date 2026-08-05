@@ -20,7 +20,19 @@ A Chrome extension that helps competitive programmers find Codeforces contests b
 
 ## Screenshots
 
-![CF Multi Filter](screenshots/main.png)
+## Screenshots
+
+### Main UI (Light Theme)
+![Main Light](screenshots/main.png)
+
+### Dark Theme
+![Dark Theme](screenshots/darktheme.png)
+
+### Filter Results
+![Results](screenshots/filter.png)
+
+### Error Handling
+![Error Handling](screenshots/image.png)
 
 ## Installation
 
